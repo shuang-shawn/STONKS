@@ -23,19 +23,19 @@ const items = [
     title: 'Dashboard'
   },
   {
-    href: '/customers',
+    href: '/portfolio',
     icon: (<UsersIcon fontSize="small" />),
-    title: 'Customers'
+    title: 'Portfolio'
   },
   {
-    href: '/products',
+    href: '/models',
     icon: (<ShoppingBagIcon fontSize="small" />),
-    title: 'Products'
+    title: 'models'
   },
   {
-    href: '/account',
+    href: '/simulate',
     icon: (<UserIcon fontSize="small" />),
-    title: 'Account'
+    title: 'Simulate'
   },
   {
     href: '/settings',
