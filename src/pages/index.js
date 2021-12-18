@@ -14,7 +14,7 @@ const Dashboard = () => (
   <>
     <Head>
       <title>
-        Dashboard | Material Kit
+        STONKS | APES TOGETHER STRONG
       </title>
     </Head>
     <Box
