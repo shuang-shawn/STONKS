@@ -13,6 +13,7 @@ import {
   Posts,
   Post,
 } from "./components";
+import firebase from "./components/utils/firebase";
 
 ReactDOM.render(
   <Router>

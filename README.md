@@ -14,5 +14,7 @@
 - Main features:
 1. Users can customize their own trading algorithm based on risk tolerance.
 2. Option to test your current algorithm before you buy.
+3. 
+
 
 
