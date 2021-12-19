@@ -1,8 +1,8 @@
 import { Doughnut } from 'react-chartjs-2';
 import { Box, Card, CardContent, CardHeader, Divider, Typography, useTheme } from '@mui/material';
-import LaptopMacIcon from '@mui/icons-material/LaptopMac';
-import PhoneIcon from '@mui/icons-material/Phone';
-import TabletIcon from '@mui/icons-material/Tablet';
+import ElectricCarIcon from '@mui/icons-material/ElectricCar';
+import AppleIcon from '@mui/icons-material/Apple';
+import FacebookIcon from '@mui/icons-material/Facebook';
 
 export const TrafficByDevice = (props) => {
   const theme = useTheme();
@@ -17,7 +17,7 @@ export const TrafficByDevice = (props) => {
         hoverBorderColor: '#FFFFFF'
       }
     ],
-    labels: ['Desktop', 'Tablet', 'Mobile']
+    labels: ['Tesla', 'Apple', 'Facebook']
   };
 
   const options = {
@@ -44,28 +44,28 @@ export const TrafficByDevice = (props) => {
 
   const devices = [
     {
-      title: 'Desktop',
+      title: 'Tesla',
       value: 63,
-      icon: LaptopMacIcon,
+      icon: ElectricCarIcon,
       color: '#3F51B5'
     },
     {
-      title: 'Tablet',
+      title: 'Apple',
       value: 15,
-      icon: TabletIcon,
+      icon: AppleIcon,
       color: '#E53935'
     },
     {
-      title: 'Mobile',
+      title: 'Facebook',
       value: 23,
-      icon: PhoneIcon,
+      icon: FacebookIcon,
       color: '#FB8C00'
     }
   ];
 
   return (
     <Card {...props}>
-      <CardHeader title="Traffic by Device" />
+      <CardHeader title="Portfolio Percentages" />
       <Divider />
       <CardContent>
         <Box

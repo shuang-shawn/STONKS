@@ -67,7 +67,7 @@ export const UserRecommendedStocks = ({ stock, ...rest }) => {
 
                     >
                       <Avatar
-                        src={stock.avatarUrl}
+                        src={stock.logo}
                         sx={{ mr: 2 }}
                       >
                    
