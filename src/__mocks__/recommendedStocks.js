@@ -1,38 +1,38 @@
 import { v4 as uuid } from 'uuid';
 
-export const ownedStocks = [
+export const recommendedStocks = [
   {
-    ticker: "AAPL",
-    name: "Apple Inc.",
-    price: "171.14",
+    ticker: "AMC",
+    name: "AMC Entertainment Inc.",
+    price: "29.12",
     logo: '/static/images/avatars/avatar_2.png',
 
   },
   {
-    ticker: "TSLA",
-    name: "Tesla Inc.",
-    price: "171.14",
+    ticker: "LCID",
+    name: "Lucid Group Inc.",
+    price: "40.01",
     logo: '/static/images/avatars/avatar_2.png',
 
   },
   {
-    ticker: "MSFT",
-    name: "Microsoft Inc.",
-    price: "171.14",
+    ticker: "PFE",
+    name: "Pfizer Inc.",
+    price: "59.48",
     logo: '/static/images/avatars/avatar_2.png',
 
   },
   {
-    ticker: "GME",
-    name: "Gamestop Inc.",
-    price: "171.14",
+    ticker: "WU",
+    name: "The Western Union Company",
+    price: "17.38",
     logo: '/static/images/avatars/avatar_2.png',
 
   },
   {
-    ticker: "AMZN",
-    name: "Amazon Inc.",
-    price: "171.14",
+    ticker: "NVDA",
+    name: "NVIDIA Corp.",
+    price: "278.01",
     logo: '/static/images/avatars/avatar_2.png',
 
   },

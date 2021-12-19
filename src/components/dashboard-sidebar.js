@@ -30,7 +30,7 @@ const items = [
   {
     href: '/models',
     icon: (<ShoppingBagIcon fontSize="small" />),
-    title: 'models'
+    title: 'Models'
   },
   {
     href: '/simulate',
@@ -124,15 +124,15 @@ export const DashboardSidebar = (props) => {
                   color="inherit"
                   variant="subtitle1"
                 >
-                  Acme Inc
+                  Strong Stonks
                 </Typography>
                 <Typography
                   color="neutral.400"
                   variant="body2"
                 >
-                  Your tier
+                  Your Portfolio Style
                   {' '}
-                  : Premium
+                  : High Risk, High Profit
                 </Typography>
               </div>
               <SelectorIcon
