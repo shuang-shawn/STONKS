@@ -9,7 +9,7 @@ import { TotalCustomers } from '../components/dashboard/total-customers';
 import { TotalProfit } from '../components/dashboard/total-profit';
 import { TrafficByDevice } from '../components/dashboard/traffic-by-device';
 import { DashboardLayout } from '../components/dashboard-layout';
-import LineChart from './LineChart'
+// import LineChart from './LineChart'
 
 
 const Dashboard = () => (
@@ -20,9 +20,9 @@ const Dashboard = () => (
       </title>
     </Head>
 
-    <div className="App">
+    {/* <div className="App">
  <LineChart />
-    </div>
+    </div> */}
 
     <Box
       component="main"

@@ -97,12 +97,25 @@ class Stock extends React.Component {
         />
         {/* <Symbols /> */}
         <div>
-          <h3>
-            {names[0]}
-          </h3>
-          <h3>{names[1]}</h3>
-          <h3>{names[2]}</h3>
+        <table>
 
+<tr>
+  <td>Open:	914.77</td>
+  <td>Mkt cap:	936.55B</td>
+  <td>52-wk high:	1,243.49</td> 
+</tr>
+<tr>
+  <td>High:	960.66</td>
+  <td>P/E ratio:	302.62</td>
+  <td>2-wk low:	539.49</td>
+</tr>
+<tr>
+  <td>Low:	909.04</td>
+
+</tr>
+
+
+</table>
         </div>
       </div>
       
