@@ -9,6 +9,8 @@ import { TotalCustomers } from '../components/dashboard/total-customers';
 import { TotalProfit } from '../components/dashboard/total-profit';
 import { TrafficByDevice } from '../components/dashboard/traffic-by-device';
 import { DashboardLayout } from '../components/dashboard-layout';
+import LineChart from './LineChart'
+
 
 const Dashboard = () => (
   <>
@@ -17,6 +19,11 @@ const Dashboard = () => (
         STONKS | APES TOGETHER STRONG
       </title>
     </Head>
+
+    <div className="App">
+ <LineChart />
+    </div>
+
     <Box
       component="main"
       sx={{
