@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import { Box, Container } from '@mui/material';
-import { CustomerListResults } from '../components/customer/customer-list-results';
-import { CustomerListToolbar } from '../components/customer/customer-list-toolbar';
+import { UserPotentialStocks } from '../components/portfolio/user-potential-stocks';
+import { CustomerListToolbar } from '../components/portfolio/customer-list-toolbar';
 import { DashboardLayout } from '../components/dashboard-layout';
-import { customers } from '../__mocks__/customers';
+import { ownedStocks } from '../__mocks__/ownedStocks';
 
 const Portfolio = () => (
   <>
@@ -19,10 +19,13 @@ const Portfolio = () => (
         py: 8
       }}
     >
-      <Container maxWidth={false}>
-        <CustomerListToolbar />
-        <Box sx={{ mt: 3 }}>
-          <CustomerListResults customers={customers} />
+      <CustomerListToolbar sx={{mx: 20}}>
+
+      </CustomerListToolbar>
+      <Container  maxWidth={false} >
+        <Box sx={{ mt: 3, display:'flex', justifyContent:'center'}}>
+         <UserPotentialStocks stock={ownedStocks} sx={{mx:8}}/>
+         <UserPotentialStocks stock={ownedStocks} sx={{mx:8}}/>
         </Box>
       </Container>
     </Box>
