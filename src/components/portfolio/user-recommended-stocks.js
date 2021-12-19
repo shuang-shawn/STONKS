@@ -30,6 +30,8 @@ export const UserRecommendedStocks = ({ stock, ...rest }) => {
   return (
   
     <Card {...rest}>
+      <h2>Recommended Stocks</h2>
+
       <PerfectScrollbar>
         <Box sx={{ maxWidth: '100%' }}>
           <Table>

@@ -17,7 +17,7 @@ import {
   Modal
 } from '@mui/material';
 import { getInitials } from '../../utils/get-initials';
-import Stock from './Stock'
+// import Stock from './Stock'
 import * as React from 'react';
 
 const style = {
@@ -46,7 +46,7 @@ export const UserPotentialStocks = ({ stock, ...rest }) => {
   return (
 
     <Card {...rest}>
-
+<h2>Potential Stocks</h2>
 
       <PerfectScrollbar>
         <Box sx={{ maxWidth: '100%' }}>
@@ -122,7 +122,7 @@ export const UserPotentialStocks = ({ stock, ...rest }) => {
             {stock.name}
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-          <Stock />
+          {/* <Stock /> */}
           </Typography>
           
           </Box>
